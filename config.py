@@ -8,8 +8,8 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID","28864297"))
 API_HASH = getenv("API_HASH","b01f368c3d73cb37c7fc018823ac9c30")
-BOT_TOKEN = getenv("BOT_TOKEN","7113198769:AAEzy3h4C1-ja_TWlZYtfzt6rA8verSn_1g")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://CherryMusicbot:jvksmLVg2ed0EBe4@cherrymusicbot.nli79o4.mongodb.net/?retryWrites=true&w=majority")
+BOT_TOKEN = getenv("BOT_TOKEN","")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "9999"))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002138343949"))
 BOTADDLOGS = int(getenv("BOTADDLOGS", "-1002138343949")) # LOGGER_ID Id Also Use No Problem
